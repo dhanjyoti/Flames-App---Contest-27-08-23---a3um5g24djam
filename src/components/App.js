@@ -14,7 +14,7 @@ const App = () => {
     const calculateRelationship = () => {
 
         if(firstName.trim() === "" || secondName.trim() === ""){
-            setResult("Please enter valid input")
+            setResult("Please Enter valid input")
             return
         }
         let fName = firstName
@@ -50,7 +50,7 @@ const App = () => {
                 setResult("Enemy")
                 break
             default:
-                setResult('Please enter valid input')
+                setResult('Please Enter valid input')
         }
     }
 
