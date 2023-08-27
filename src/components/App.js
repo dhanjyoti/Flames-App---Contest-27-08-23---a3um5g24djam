@@ -26,7 +26,8 @@ const App = () => {
             }
         })
 
-        const r = Math.ceil((fName.length + sName.length) / 6)
+        console.log(fName, sName);
+        const r = (fName.length + sName.length) % 6
 
         
         switch (r) {
